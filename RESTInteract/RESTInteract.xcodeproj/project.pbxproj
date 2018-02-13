@@ -131,20 +131,7 @@
 				6FFE376A1ECDA3A80002B992 /* ItemTableViewCell.swift */,
 				6F017DE11EEDCC0F00474D7A /* UserRecipeTableViewCell.swift */,
 			);
-			name = Cells;
-			sourceTree = "<group>";
-		};
-		6F0C0DC61EE800B90030C414 /* Main Views */ = {
-			isa = PBXGroup;
-			children = (
-				6F0C0DCD1EE808360030C414 /* YourRecipesViewController.swift */,
-				6F017DA81EEC7AD800474D7A /* WasteDashboardViewController.swift */,
-				6F504F461ED0945B00C40A8A /* RecipeEntryViewController.swift */,
-				6FFE376C1ECDBE230002B992 /* Recipe2ViewController.swift */,
-				6F929A7E1EB65AE00038EE93 /* RecipeWebViewController.swift */,
-				6F929A7A1EB656C70038EE93 /* ItemListViewController.swift */,
-			);
-			name = "Main Views";
+			path = Cells;
 			sourceTree = "<group>";
 		};
 		6F0C0DC71EE800CE0030C414 /* Setup Views */ = {
@@ -157,21 +144,7 @@
 				6F504F4C1ED7078A00C40A8A /* RegisterViewController.swift */,
 				6F504F4A1ED6DDB800C40A8A /* LoginViewController.swift */,
 			);
-			name = "Setup Views";
-			sourceTree = "<group>";
-		};
-		6F0C0DC81EE800FA0030C414 /* Other Important Stuff */ = {
-			isa = PBXGroup;
-			children = (
-				6F017DBA1EEDA5F200474D7A /* CustomTabController.swift */,
-				6FFE37CB1ECF1B3D0002B992 /* Recipe.swift */,
-				6F017DB81EED51CF00474D7A /* itemFood.swift */,
-				6F504F521ED86D0600C40A8A /* CheckBox.swift */,
-				6FFE37CD1ECF1F030002B992 /* GraphView.swift */,
-				6F017DEB1EF447F700474D7A /* GradientView.swift */,
-				6F017DED1EF4630D00474D7A /* DownloadSessionDelegate.swift */,
-			);
-			name = "Other Important Stuff";
+			path = "Setup Views";
 			sourceTree = "<group>";
 		};
 		6F5657751E5738F400BD3C3B = {
@@ -193,23 +166,66 @@
 		6F5657801E5738F400BD3C3B /* RESTInteract */ = {
 			isa = PBXGroup;
 			children = (
+				6F974B7A203305B4001E57B2 /* Other Important Stuff */,
+				6F974B79203304A8001E57B2 /* Test View Controllers (unused) */,
+				6F974B7720330418001E57B2 /* Main Views */,
+				6F974B76203303D6001E57B2 /* Secondary Views */,
 				6F0C0DC41EDEED050030C414 /* RESTInteract.entitlements */,
 				6FFE37B01ECF180A0002B992 /* Model.xcdatamodeld */,
 				6F5657811E5738F400BD3C3B /* AppDelegate.swift */,
-				6F0C0DC81EE800FA0030C414 /* Other Important Stuff */,
 				6F0C0DC51EE800890030C414 /* Cells */,
 				6F985CD41E5B4DD2002376C4 /* Main.storyboard */,
-				6FB739DC1EFA8C1700AB54F0 /* RewardViewController.swift */,
-				6F9C57411EDC7921002C6CB4 /* SearchViewController.swift */,
 				6F0C0DC71EE800CE0030C414 /* Setup Views */,
-				6F0C0DC61EE800B90030C414 /* Main Views */,
-				6F929A781EB647A00038EE93 /* RecipesViewController.swift */,
 				6FFE377E1ECDFD060002B992 /* CoreData */,
 				6F56578B1E5738F500BD3C3B /* Assets.xcassets */,
 				6F56578D1E5738F500BD3C3B /* LaunchScreen.storyboard */,
 				6F5657901E5738F500BD3C3B /* Info.plist */,
 			);
 			path = RESTInteract;
+			sourceTree = "<group>";
+		};
+		6F974B76203303D6001E57B2 /* Secondary Views */ = {
+			isa = PBXGroup;
+			children = (
+				6F0C0DCD1EE808360030C414 /* YourRecipesViewController.swift */,
+				6F504F461ED0945B00C40A8A /* RecipeEntryViewController.swift */,
+				6F929A7E1EB65AE00038EE93 /* RecipeWebViewController.swift */,
+			);
+			path = "Secondary Views";
+			sourceTree = "<group>";
+		};
+		6F974B7720330418001E57B2 /* Main Views */ = {
+			isa = PBXGroup;
+			children = (
+				6F017DA81EEC7AD800474D7A /* WasteDashboardViewController.swift */,
+				6FFE376C1ECDBE230002B992 /* Recipe2ViewController.swift */,
+				6F929A7A1EB656C70038EE93 /* ItemListViewController.swift */,
+			);
+			path = "Main Views";
+			sourceTree = "<group>";
+		};
+		6F974B79203304A8001E57B2 /* Test View Controllers (unused) */ = {
+			isa = PBXGroup;
+			children = (
+				6FB739DC1EFA8C1700AB54F0 /* RewardViewController.swift */,
+				6F9C57411EDC7921002C6CB4 /* SearchViewController.swift */,
+				6F929A781EB647A00038EE93 /* RecipesViewController.swift */,
+			);
+			path = "Test View Controllers (unused)";
+			sourceTree = "<group>";
+		};
+		6F974B7A203305B4001E57B2 /* Other Important Stuff */ = {
+			isa = PBXGroup;
+			children = (
+				6F017DBA1EEDA5F200474D7A /* CustomTabController.swift */,
+				6FFE37CB1ECF1B3D0002B992 /* Recipe.swift */,
+				6F017DB81EED51CF00474D7A /* itemFood.swift */,
+				6F504F521ED86D0600C40A8A /* CheckBox.swift */,
+				6FFE37CD1ECF1F030002B992 /* GraphView.swift */,
+				6F017DEB1EF447F700474D7A /* GradientView.swift */,
+				6F017DED1EF4630D00474D7A /* DownloadSessionDelegate.swift */,
+			);
+			path = "Other Important Stuff";
 			sourceTree = "<group>";
 		};
 		6FFE377E1ECDFD060002B992 /* CoreData */ = {

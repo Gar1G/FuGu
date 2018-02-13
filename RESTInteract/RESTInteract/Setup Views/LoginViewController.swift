@@ -97,8 +97,10 @@ class LoginViewController: UIViewController {
             print("Logged in!")
             performSegue(withIdentifier: "loginSegue", sender: self)
         } else {
+            performSegue(withIdentifier: "loginSegue", sender: self)
             print("loggedIn: not set")
         }
+        
     }
     
     

@@ -1,1 +1,5 @@
 # FuGu
+
+## File Structure:
+
+..*
