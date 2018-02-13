@@ -2,7 +2,11 @@
 
 ## An Internet of Things approach to tackling foodwaste.
 
-FuGu is an IOT system consisting of six components:
+![screen shot 2017-07-20 at 11 15 04](https://user-images.githubusercontent.com/9306774/36165493-a14cf378-10e7-11e8-9aff-2deb27de8c93.png)
+
+
+
+### FuGu is an IOT system consisting of six components:
 
 1. Food items with RFID (Radio Frequency ID) tags
 2. Fridge equipped with RFID sensor
@@ -31,5 +35,4 @@ FuGu is an IOT system consisting of six components:
   * `Setup Views` : View controllers to handle functions; Login, Registration, Cuisine Preferences, Fridge and Bin Setup, Settings
   * `Cells` : Set of custom classes written for use in the TableView and CollectionViews throughout the app.
   * `Core Data` : Data models of objects stored in the on-device data storage (User Recipes and Food Waste)
-
 
